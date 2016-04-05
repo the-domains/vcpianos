@@ -1,5 +1,4 @@
-favicon: null
-name: vcpianos
+layout_spectrum: 1
 opengraph:
   image: null
   type: null
@@ -33,8 +32,9 @@ cta:
   bucket: null
   version: null
   domain: null
-layout_spectrum: 0
 analytics:
   twitter: null
   google: null
   facebook: null
+favicon: null
+name: vcpianos
