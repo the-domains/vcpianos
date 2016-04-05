@@ -1,28 +1,40 @@
-name: vcpianos
 favicon: null
-layout_spectrum: 0
-typography_spectrum: 0.26976
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: vcpianos
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.3125
+  brandStrength: 0.75
+  lightness: 0
   brandColors:
     - '#ffffff'
     - '#384d5e'
     - '#b7b7b7'
     - '#737373'
     - '#1c1c1c'
-  brandStrength: 0.75
-  lightness: 0.75
-  saturation: 0.3125
   rhythmicContrast: 0.5
-purpose: []
+typography_spectrum: 0.26976
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0
+analytics:
+  twitter: null
+  google: null
+  facebook: null
